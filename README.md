@@ -10,26 +10,26 @@ In command line, type `./runInvert.py` to run the app
 	
  show this help message and exit
 
-##### ` -i INPUT, --input INPUT`
+##### ` -i --input INPUT`
 	
  input image path
 
-#####  `-o OUTPUT, --output OUTPUT`	
+#####  `-o --output OUTPUT`	
 	
  output image path. 
 	default is 'output.png'.
 
-#####  `-s COLORSPACE, --colorspace COLORSPACE`
+#####  `-s --colorspace COLORSPACE`
 	
  hls/lab/yiq. 
 	default is hls
 
-#####  `-k KERNEL, --kernel KERNEL`
+#####  `-k --kernel KERNEL`
 	
  blur/sharpen/edge/None
 	default is None
 
-#####  `-g GAMMA, --gamma GAMMA`
+#####  `-g --gamma GAMMA`
 	
  a float equal to gamma value
 	default is 1
