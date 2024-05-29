@@ -2,7 +2,7 @@
 
 In command line, type:
 
-``` python runInvert.py -i {input image path} -o {output path} -s {hsl/lab/yiq} -k {blur/sharpen/edge/None} -g {gamma value}```
+```python runInvert.py -i {input image path} -o {output path} -s {hsl/lab/yiq} -k {blur/sharpen/edge/None} -g {gamma value}```
 
 to run the app. 
 
