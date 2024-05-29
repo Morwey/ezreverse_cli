@@ -1,6 +1,6 @@
 ## Command Line version of ezReverse
 
-In command line, type `./runInvert.py` to run the app
+In command line, type `./runInvert.py` to run the app. Example: `./runInvert.py -i demo.png`
 
 
 ## Command:
