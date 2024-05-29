@@ -1,4 +1,4 @@
-Command Line version of Ezreverse：https://github.com/Morwey/ezreverse
+### Command Line version of Ezreverse：https://github.com/Morwey/ezreverse
 
 In command line, type `./runInvert.py` to run the app
 
