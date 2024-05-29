@@ -1,9 +1,10 @@
 ## Command Line version of ezReverse
 
 In command line, type 
-``./runInvert.py -i {input image path} -o {output path} -s {hls/lab/yiq} -k {blur/sharpen/edge/None} -g {gamma value}`` to run the app. 
+```./runInvert.py -i {input image path} -o {output path} -s {hls/lab/yiq} -k {blur/sharpen/edge/None} -g {gamma value}```
+to run the app. 
 
-Example: `./runInvert.py -i demo.png`
+Example: `./runInvert.py -i demo.png -o output.png -s hls`
 
 
 ## Command:
