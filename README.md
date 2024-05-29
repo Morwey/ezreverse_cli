@@ -9,7 +9,7 @@ to run the app.
 Example: `./runInvert.py -i demo.png -o output.png -s hsl`
 
 
-## Command:
+## Features:
 
 
 ##### `-h, --help`          	
