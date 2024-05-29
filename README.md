@@ -4,6 +4,8 @@ In command line, type `./runInvert.py` to run the app
 
 
 Command:
+
+
   -h, --help            	
 	show this help message and exit
 
