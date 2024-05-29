@@ -1,4 +1,4 @@
-### Command Line version of Ezreverse：https://github.com/Morwey/ezreverse
+### Command Line version of ezReverse
 
 In command line, type `./runInvert.py` to run the app
 
@@ -26,4 +26,6 @@ Command:
 	a float equal to gamma value
 	default is 1
 
-
+Web app: [ezReverse web app](https://amsterdamstudygroup.shinyapps.io/ezreverse/)
+Manuscript: [bioRxiv 2024](https://www.biorxiv.org/content/10.1101/2024.05.27.594095v1)
+Original project: ：[ezReverse github](https://github.com/Morwey/ezreverse)
