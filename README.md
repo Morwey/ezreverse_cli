@@ -14,7 +14,7 @@ Example: `python runInvert.py -i demo.png -o output.png -s hsl`
 
 ##### `-h, --help`          	
 	
- show this help message and exit
+ show help message and exit
 
 ##### ` -i --input `
 	
