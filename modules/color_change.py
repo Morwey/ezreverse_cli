@@ -7,8 +7,6 @@ def hex_to_rgb(hex_value):
     hex_value = hex_value.lstrip('#')
     return list(int(hex_value[i:i+2], 16) for i in (0, 2, 4))
 
-# Vectorized! much more faster
-
 def adjust_colors(img_array, color='white', space='rgb',custom='#ffffff',threshold = 30):
 
     color_map = {'white': [255, 255, 255], 'black': [0, 0, 0], 'grey': [123, 123, 123]}
