@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import argparse
-from modules.color_change import *
 from modules.convolve import *
 from modules.invert import *
 from modules.ttohsl import *
