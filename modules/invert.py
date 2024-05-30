@@ -1,6 +1,5 @@
 from modules.ttohsl import *
 from skimage import color, io, util
-import json
 
 
 def invert_hls(image_data):

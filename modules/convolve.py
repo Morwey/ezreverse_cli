@@ -39,34 +39,3 @@ def apply_kernel(image, operation):
     else:
         kernel = kernels.get(operation, None)
         return convolve_rgb(image, kernel)
-
-'''
-image = io.imread('demo_input/demo1.png')
-image = np.array(image)
-print(image.shape)
-
-blurred_image = apply_kernel(image, 'blur')
-edge_detected_image = apply_kernel(image, 'edge')
-sharpened_image = apply_kernel(image, 'sharpen')
-
-plt.figure(figsize=(12, 12))
-
-plt.subplot(2, 2, 1)
-plt.imshow(image, cmap='gray')
-plt.title("Original Image")
-
-plt.subplot(2, 2, 2)
-plt.imshow(blurred_image, cmap='gray')
-plt.title("Blurred Image")
-
-plt.subplot(2, 2, 3)
-plt.imshow(edge_detected_image, cmap='gray')
-plt.title("Edge Detected Image")
-
-plt.subplot(2, 2, 4)
-plt.imshow(sharpened_image, cmap='gray')
-plt.title("Sharpened Image")
-
-plt.tight_layout()
-plt.show()
-'''
