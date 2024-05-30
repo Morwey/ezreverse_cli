@@ -27,9 +27,7 @@ def apply_kernel(image, operation):
                             [0, 0, 0],
                             [1, 2, 1]]),
         
-        "sharpen": np.array([[0, -1, 0],
-                             [-1, 5, -1],
-                             [0, -1, 0]])
+        "sharpen": np.array([[0, -1,0], [-1, 5, -1], [0, -1, 0]])
     }
 
     if operation == "edge":
