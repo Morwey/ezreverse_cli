@@ -28,7 +28,7 @@ Example: `python runInvert.py -i demo.png -o output.png -s hsl`
 #####  `-s --colorspace`
 	
  hsl/lab/yiq. 
-	default is hls
+	default is hsl
 
 #####  `-k --kernel`
 	
