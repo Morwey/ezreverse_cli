@@ -11,7 +11,7 @@ parser = argparse.ArgumentParser(description="A quick app to invert the black/wh
 parser.add_argument('-i', "--input", type=str, help="input image path")
 parser.add_argument("-o", "--output", type=str, help="output image path, default is output.png", default='output.png')
 parser.add_argument("-s", "--colorspace", type=str, choices=['hsl', 'lab', 'yiq'], help="hsl/lab/yiq, default is hsl", default='hsl')
-parser.add_argument("-k", "--kernel", type=str, choices=['blur', 'sharpen', 'edge', None], help="blur/sharpen/edge,default is None",default=None)
+parser.add_argument("-k", "--kernel", type=str, choices=['blur', 'sharpen', None], help="blur/sharpen/, default is None",default=None)
 parser.add_argument("-g", "--gamma", type=float, help="a float equal to gamma value, default is 1", default=1)
 
 args = parser.parse_args()

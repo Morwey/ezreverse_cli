@@ -32,7 +32,7 @@ Example: `python runInvert.py -i demo.png -o output.png -s hsl`
 
 #####  `-k --kernel`
 	
- blur/sharpen/edge/None
+ blur/sharpen/None
 	default is None
 
 #####  `-g --gamma`

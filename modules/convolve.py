@@ -29,11 +29,5 @@ def apply_kernel(image, operation):
         
         "sharpen": np.array([[0, -1,0], [-1, 5, -1], [0, -1, 0]])
     }
-
-    if operation == "edge":
-        edges_x = convolve_rgb(image, kernels["edge_x"])
-        edges_y = convolve_rgb(image, kernels["edge_y"])
-        return np.sqrt(edges_x**2 + edges_y**2)
-    else:
-        kernel = kernels.get(operation, None)
-        return convolve_rgb(image, kernel)
+    kernel = kernels.get(operation, None)
+    return convolve_rgb(image, kernel)
